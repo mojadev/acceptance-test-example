@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "paths": {
+      "*": ["src/*", "spec/*"]
+    }
+  },
+  "types": [
+    "mocha"
+  ]
+}

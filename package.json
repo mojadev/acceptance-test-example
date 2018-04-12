@@ -1,0 +1,30 @@
+{
+  "name": "atdd-example-sprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "wdio ./wdio.conf.js",
+    "debug:paths": "tsc --noEmit --traceResolution >> debug.out"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/webdriverio": "^4.10.1",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.37.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/expect": "^1.20.3",
+    "@types/mocha": "^5.0.0",
+    "tsconfig-paths": "^3.2.0",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-dot-reporter": "^0.0.9",
+    "wdio-junit-reporter": "^0.4.2",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-mochawesome-reporter": "^1.3.0",
+    "wdio-spec-reporter": "^0.1.4"
+  }
+}
